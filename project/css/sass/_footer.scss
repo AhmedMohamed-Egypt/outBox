@@ -1,0 +1,125 @@
+.footer{
+    background-color: $balck;
+    display: flex;
+    flex-direction: column;
+    .container-social{
+        margin-top: 250px;
+        padding: 0px 100px;
+        @include max(500px){
+            flex-direction: column;
+            align-items: center;
+            margin-top: 100px;
+            order: 5;
+        }
+        .copy-right{
+            @include max(500px){
+                margin-bottom: 25px;
+            }
+        }
+    }
+    .call-to-actions {
+        a{
+            border: none;
+            width: 196px;
+            max-width: 100%;
+            padding: 18px 0;
+            display: block;
+            height: auto;
+            @include max(440px){
+                margin:15px  auto !important;
+            }
+            &:nth-child(2){
+                @include max(440px){
+                   
+                }
+            }
+        }
+        .link{
+            background-color: transparent;
+            border: 1px solid #ffffff40;
+            &:hover{
+                background-color: #ffffff40;
+                border: 1px solid transparent;
+            }
+        }
+        .primary{
+            &:hover{
+                box-shadow: inset 100px 0 100px 100px #0000001a;
+
+            }
+        }
+    }
+    .social-link{
+        >a{
+            &:not(:last-child){
+                margin-right: 20px;
+            }
+        }
+        i{
+            font-size: 20px;
+        }
+    }
+    .subscribe-form{
+        margin-top: 25px;
+        form{
+            width: 100%;
+            justify-content: center;
+            @include max(450px){
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+            }
+        }
+        input{
+            font-size: 16px;
+            display: block;
+            @include max(450px){
+                width: 90% !important;
+                margin: 5px auto !important;
+            }
+        }
+        .email-input{
+            width: 220px;
+            max-width: 100%;
+            border-radius: 5px;
+            height: 36px;
+            &::placeholder{
+                color: #7f8fa6;
+                font-weight: 500;
+                font-size: 16px;
+            }
+        }
+        .submit-btn{
+            background-color: #e0dcdc;
+    color: #525253;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 7px 16px;
+    cursor: pointer;
+    transition: .5s;
+    margin-left: 10px;
+    @include max(450px){
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    &:hover{
+        box-shadow: inset 100px 0 100px 100px rgb(0 0 0 / 30%);
+    }
+        }
+    }
+}
+
+#modal-js-example{
+.join-us-txt{
+    font-size: 24px;
+    font-weight: 500;
+   
+}
+input{
+    margin: 0;
+}
+input.signupemail{
+    margin: 25px 0;
+}
+
+}

@@ -1,0 +1,34 @@
+.chapters{
+    transform: translateY(-30px);
+    .card{
+        width: 670px;
+        max-width: 100%;
+        box-shadow: 0 1px 24px 0 #0000001a;
+        transition: .25s;
+        margin: auto;
+        &:hover{
+            transform: translate(0,-15px);
+        }
+        >a{
+            display: block;
+            width: 100%;
+            padding: 25px 25px;
+          
+            >div{
+                >div{
+                    width: 85%;
+                    margin-right: auto;
+                    margin-top: 15px;
+                }
+                >img{
+                    display: block;
+                    margin-right: auto;
+                }
+            }
+        }
+
+        h2{
+
+        }
+    }
+}

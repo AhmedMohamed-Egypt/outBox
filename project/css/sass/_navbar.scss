@@ -1,0 +1,118 @@
+.navbar{
+  background-color: $maincolor;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  .navbar-start {
+    width: 100%;
+
+  }
+  .navbar-link:not(.is-arrowless)::after{
+    border-color: #fff;
+    
+    margin-top: -4px;
+    right: -10px;
+    width: 6px;
+    height: 6px;
+  }
+ 
+ 
+  .navbar-start{
+   >a.navbar-item,>div.navbar-item{
+      font-weight: 600;
+      padding: 0;
+      @include max(1023px){
+        padding: 20px 0 0 30px;
+      }
+      &:not(:last-child){
+        margin-right: 20px;
+      }
+      >a.navbar-link {
+        padding: 0;
+      
+      }
+    }
+   
+  }
+  .navbar-end{
+    .githubBtn{
+      background-color: transparent;
+      transition: .5s;
+      &:hover{
+        animation-name: pulse;
+        animation-duration: .5s;
+        animation-timing-function: ease-in-out;
+
+      }
+   
+      i{
+        font-size: 24px;
+        color: rgba(#fff,.5);
+      }
+    }
+    .join-us{
+      background-color: transparent;
+      color: #fff;
+      border: 1px solid #7f7c7c;
+      padding: 0px 0;
+      line-height: normal;
+      height: auto;
+      padding: 6px 20px;
+    }
+  }
+  .navbar-brand{
+    >a.navbar-item.logo-item{
+      img{
+        width: 150px;
+        height: 80px;
+        max-height: inherit;
+      }
+    }
+  }
+}
+
+
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover {
+  background: none;
+}
+
+a.navbar-link:focus,
+a.navbar-link:focus-within,
+a.navbar-link:hover {
+  background: none;
+}
+.navbar-item.has-dropdown:hover .navbar-link {
+  background: none;
+}
+.navbar-burger {
+  color: #fff;
+ 
+  &:hover {
+    color: #fff;
+  }
+  span{
+    height: 2px;
+  }
+}
+.navbar-menu {
+  display: flex;
+ 
+}
+
+@media only screen and (max-width: 1023px) {
+  .navbar-menu {
+    background-color: #000;
+    &.hidden {
+      display: none;
+    }
+    flex-direction: column;
+  }
+  .navbar-dropdown {
+    display: none;
+    &.is-active {
+      display: block;
+    }
+  }
+}

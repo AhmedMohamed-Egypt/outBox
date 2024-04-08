@@ -1,0 +1,12 @@
+version: "3.3"
+
+services:
+  company_site:
+    container_name: company_site
+    image: company_site
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "80:80"

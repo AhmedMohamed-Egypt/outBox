@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('./fonts/icomoon.woff');
+    src:  url('./fonts/icomoon.ttf') ,
+      url('./fonts/icomoon.eot') ,
+      url('./fonts/icomoon.svg') ;
+      
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrow_right_alt:before {
+    content: "\e900";
+  }
+
+
+
+
+
+
+
+
+.space-font{
+    font-family: 'Space Grotesk', sans-serif;
+}
+.ibm-font{
+    font-family: 'IBM Plex Mono', monospace;
+}
+.monospace{
+    font-family: 'Roboto Mono', monospace;
+}
+.black{
+    columns: #000;
+}
+.size-14{
+    font-size: 14px;
+}
+.size-18{
+    font-size: 18px;
+}
+.size-20{
+    font-size: 20px;
+}
+.size-24{
+    font-size: 24px;
+}
+.size-30{
+    font-size: 30px;
+}
+.size-36{
+    font-size: 36px;
+}
+.size-40{
+    font-size: 40px;
+}
+.size-54{
+    font-size: 54px;
+}
+
+.w-500{
+    font-weight: 500;
+}
+
+.w-700{
+    font-weight: 700;
+}
+
+
+
+.line-height-one{
+line-height: 1;
+}
+.p-15{
+    padding: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

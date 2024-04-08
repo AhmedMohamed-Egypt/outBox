@@ -1,0 +1,26 @@
+$maincolor:#392396;
+$balck:#141414;
+$sky:#bae8e8;
+$yellow:#ffd803;
+$orange:rgb(255, 157, 0);
+$violtet:rgb(188, 127, 245);
+$grey:#515357;
+.grey{
+    color: $grey;
+}
+
+.violet{
+    color: $violtet;
+}
+.orange{
+    color: rgb(255, 157, 0);
+}
+.primary{
+    background-color: $maincolor !important;
+}
+.black{
+    color: $balck;
+}
+.yellow{
+    color: $yellow;
+}

@@ -1,0 +1,41 @@
+body {
+   // font-family: 'Space Grotesk', sans-serif;
+   &.vacancies-page{
+      .navbar{
+         background-color: #000;
+      }
+   }
+ 
+   &.service-page{
+      .navbar{
+         background-color: $sky;
+         .navbar-item{
+            color: $balck !important;
+            transition: .5s;
+            &:hover{
+               opacity: .5 !important;
+            }
+         }
+       .navbar-end .githubBtn i{
+            color: $balck;
+         }
+         .navbar-end .join-us{
+            color: $balck;
+            font-weight: 500;
+            border-color: rgba(20, 20, 20, 0.1);
+            padding: 10px 20px;
+            transition: .25s;
+            &:hover{
+               box-shadow: inset 100px 0 100px 100px #1414141a;
+            }
+         }
+      }
+     
+   }
+   &.showList{
+      .vacancies-tabs__content .headings .list ul{
+         display: block;
+      }
+   }
+   
+}

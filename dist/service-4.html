@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      defer
+      src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+  </head>
+  <body class="service-page">
+    <nav
+      class="navbar is-fullwidth"
+      role="navigation"
+      aria-label="main navigation"
+      x-data="{ open: false }"
+    >
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item logo-item" href="index.html">
+            <img src="imgs/Black-logo.png" />
+          </a>
+
+          <a
+            role="button"
+            class="navbar-burger"
+            :class="open ? 'is-active' : ''"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+            x-on:click="open = ! open"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div
+          id="navbarBasicExample"
+          class="navbar-menu"
+          :class="open ? '' : 'hidden'"
+        >
+          <div class="navbar-start full-width is-justify-content-center">
+            <a
+              href="services.html"
+              class="navbar-item has-text-white"
+              style="text-decoration: underline; text-underline-offset: 5px"
+            >
+              Services</a
+            >
+
+            <a href="vacancies.html" class="navbar-item has-text-white">
+              Vacancies</a
+            >
+
+            <a href="blog.html" class="navbar-item has-text-white"> Blog </a>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a
+                  href="https://github.com/Learn-Together-Pro"
+                  target="_blank"
+                  class="button is-primary githubBtn"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="mailto:request@obox.systems?subject = Feedback&body = Message"
+                  class="button is-light join-us"
+                >
+                  Join US</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="whole-description">
+      <div class="container"style="padding-top: 70px;">
+        <div
+          class="columns is-desktop"
+          style="margin-right: 75px; margin-left: 20px"
+        >
+          <div class="column services-label">
+            <a href="services.html" class="w-600 label-services has-text-white"
+              >Services</a
+            >
+          </div>
+          <div
+            class="column is-two-thirds-desktop size-18 middle-desc"
+            style="padding-right: 0px; padding-left: 110px"
+          >
+            <div class="middle-desc__content">
+              <h2 class="size-40 w-700 line-height-one main-desc">
+                <p style="padding-bottom: 40px">
+                  <span> Service IV:</span>Graphics Development
+                </p>
+              </h2>
+              <p>
+                Our team has experienced software engineers with expertise in  2D and 3D graphics research and engineering, with deep knowledge regarding most modern optimizations. We have strong experience in WebGL and WebGPU application development. We have strong experience of working with ThreeJS, BabylonJS, Unity, Bevy, Notan, and Fyrox technologies.
+
+              </p>
+              <p>
+                <b>Technology stack:</b> JavaScript, WebGL, Three.js, WebGPU, Babylon.js,  Vue.js, Unity, Blender, 3D Animation, Shaders
+              </p>
+
+              <ul>
+                <b>We're able to help you with:</b>
+                <li>-&nbsp;Supporting and enhancing the Web Viewer for 3D models (written in WebGL/WebGPU)</li>
+                <li>-&nbsp;Optimizing and improving the rendering pipeline</li>
+                <li>-&nbsp;Web applications to set up, execute, and visualize the results of various models</li>
+                <li>-&nbsp;Creating visualizations based on model-generated data sets</li>
+                <li>-&nbsp;Adding and researching new features for the 3D engine</li>
+                <li>-&nbsp;Implementation a WebGL and WebGPU renderer for game engine</li>
+                <li>-&nbsp;UX and UI design</li>
+                <li>-&nbsp;3d modeling</li>
+                <li>-&nbsp;Physics, and internet network optimization</li>
+                <li>-&nbsp;Interactive website design & development (2D/3D)</li>
+                <li>-&nbsp;3D product customizer</li>
+                
+               
+              
+              <!-- <h3 class="w-500 size-20 p-15 black">Some technologies we use to solve such kinds of problems:</h3>
+            
+            <ul>
+            <li>-&nbsp;Chrome remote protocol</li>
+            <li>-&nbsp;Puppeteer</li>
+            <li>-&nbsp;OpenCV if required</li>
+            <li>-&nbsp;TensorFlow if required</li>
+            <li>-&nbsp;BrowserStack if required</li>
+            <li>-&nbsp;GitHub Workflows if required</li>
+            <li>-&nbsp;GitHub Workflows if required</li>
+            <li>-&nbsp;CircleCI if required</li>
+            </ul> -->
+            </div>
+          </div>
+
+          <div></div>
+          <div class="column is-one-quarter-desktop">
+            <div class="Get-subscrbe">
+              <h3 class="size-30 w-700 line-height-one has-text-centered">
+                Get Update from US
+              </h3>
+              <form action="">
+                <div class="dummy-mailto">
+                  <input
+                    class="email-input"
+                    type="text"
+                    placeholder="Email Address"
+                  />
+                  <a
+                    href="mailto:request@obox.systems?subject = Feedback&body = Message"
+                  ></a>
+                </div>
+ 
+                <a
+                  href="mailto:request@obox.systems?subject = ibm-fontFeedback&body = Message"
+                  class="submit-btn"
+                  >Contact us</a
+                >
+              </form>
+              <!-- <p class="size-14">We won't spam you. Ever.</p> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- ====================================================================== -->
+
+        
+        
+        <!-- ====================================================================== -->
+        <!-- <div class="gallery-photos">
+          <div class="gallery">
+            <div id="modal-js-example-one" class="modal modal-photos">
+              <div class="modal-background"></div>
+
+              <div class="modal-content">
+                <div class="box">
+                  <img src="imgs/Service 1_3.jpg" alt="" />
+                </div>
+              </div>
+
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+            <a
+              href="#"
+              class="js-modal-trigger"
+              data-target="modal-js-example-one"
+            >
+              <img src="imgs/Service 1_3.jpg" alt="" />
+            </a>
+          </div>
+          <div class="gallery">
+            <div id="modal-js-example-two" class="modal modal-photos">
+              <div class="modal-background"></div>
+
+              <div class="modal-content">
+                <div class="box">
+                  <img src="imgs/service-one.jpg" alt="" />
+                </div>
+              </div>
+              
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+            <a
+            href="#"
+            class="js-modal-trigger"
+            data-target="modal-js-example-two"
+            >
+            <img src="imgs/service-one.jpg" alt="" />
+          </a>
+        </div>
+        <div class="gallery">
+          <div id="modal-js-example-three" class="modal modal-photos">
+            <div class="modal-background"></div>
+            
+            <div class="modal-content">
+              <div class="box">
+                <img src="imgs/Service 1_5.jpg" alt="" />
+              </div>
+            </div>
+            
+            <button class="modal-close is-large" aria-label="close"></button>
+          </div>
+          <a
+          href="#"
+          class="js-modal-trigger"
+          data-target="modal-js-example-three"
+          >
+          <img src="imgs/Service 1_5.jpg" alt="" />
+        </a>
+        <button class="view-full">View Full</button>
+      </div>
+      <div class="gallery">
+        <div id="modal-js-example-four" class="modal modal-photos">
+          <div class="modal-background"></div>
+          
+          <div class="modal-content">
+            <div class="box">
+              <img src="imgs/Service 1_4.jpg" alt="" />
+            </div>
+          </div>
+          
+          <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+        <a
+        href="#"
+        class="js-modal-trigger"
+        data-target="modal-js-example-four"
+        >
+        <img src="imgs/Service 1_4.jpg" alt="" />
+      </a>
+    </div>
+    
+    <div class="gallery">
+      <div id="modal-js-example-five" class="modal modal-photos">
+        <div class="modal-background"></div>
+        
+        <div class="modal-content">
+          <div class="box">
+            <video width="500" height="500" controls>
+                    <source src="imgs/video.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+              
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+            <a
+              href="#"
+              class="js-modal-trigger"
+              data-target="modal-js-example-five"
+              >
+              <video width="500" height="500" controls>
+                <source src="imgs/video.mp4" type="video/mp4" />
+              </video>
+            </a>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <section class="big-section">
+  <div class="card-section_4">
+    <h2 class="h2-title has-text-white" style="padding-bottom: 25px; padding-top: 0px">
+      Portfolio
+    </h2>
+
+    <div class="top-cards_4">
+      <div class="card card_4">
+        <h2 class="card-title_4"><strong>Finance Data Visualizer</strong></h2>
+        <iframe src="https://player.vimeo.com/video/804441711" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen style="max-width: 80%;margin-bottom: 15px; margin-top: 0px;"></iframe>
+        <p class="card-description_4"><b>Competencies:</b> JavaScript, Vue, Three.js, 3D Animation </p>
+        <a href="https://www.fizzi.io/">
+          <div class="overlay">
+            <div class="text-card"> 
+              Participated in development of Fizzi.io - web service for visualization of the stock market. Our role was to develop a part of the app with helix. For this purpose we wrote custom ThreeJS geometry as a 3D mesh of triangles in the form of a 3D spiral.
+            </div>
+          </div>
+        </a> 
+      </div>
+
+      <div class="card card_4">
+        <h3 class="card-title_4_2"><strong>Background scene for a website</strong></h3>
+        <iframe src="https://lh7-us.googleusercontent.com/HnMrW4BxsY3U9Gkpvy-Tu23siLScDJfjzyyMQyxRXDp7YljaXiHmnpDT9YAcbEIzKJrzpP5byE6UIysHybSVPT6pTQJnYz0MzSvVbrtiapbHG72wI6hvRqfxWLXLx7gJHgpqDDm7cpPK_yAHodqhSzw=w1920-h1006" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen style="max-width: 80%;margin-bottom: 15px; margin-top: 0px;"></iframe>
+        <p class="card-description_4"><b>Competencies:</b> Java Script, WebGL, Three.js, Blender, 3D Animation</p>
+        <a href="https://www.proks.lv/ ">
+          <div class="overlay">
+            <div class="text-card"> 
+              Quite a typical task with Three.js. Most complex part was to combine animation using waypoints and user mouse input. We used my own animation library for it. Models are imported from Blender as FBX files. Shining light sources are spheres with shader material (luminosity shader).
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="card card_4 center-card_4">
+      <h3 class="card-title_4_4"><strong>Wow-effect animation for the web page</strong></h3>
+      <img src="imgs/Service_4 1_5.png" alt="img3" style="max-width: 60%;margin-bottom: 15px; margin-top: 0px;">
+      <p class="card-description_4"><b>Competencies:</b> WebGL, Rust, Animation</p>
+      <a href="https://crypto.page/">
+        <div class="overlay">
+          <div class="text-card"> 
+            The goal of this project was to create wow-effect animation on the web page. Using WebGl and Rust we animated the crypto-icons by adding their rotation around the axes we needed. In addition, the movement of those icons is interdependent with the movement of the mouse.
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+    <div class="footer">
+      <h2
+        class="h2-title has-text-white"
+        style="padding-top: 0px; padding-bottom: 50px"
+        >
+        Let's see some code.
+      </h2>
+      <div class="call-to-actions is-flex is-justify-content-center">
+        <div class="buttons">
+          <a
+            href="https://github.com/Wandalen/wTools "
+            class="button primary has-text-white"
+            >Try Cloud</a
+          >
+          <a
+            href=" https://docs.rs/wtools/latest/wtools/"
+            class="button link has-text-white"
+            >Read the docs</a
+          >
+        </div>
+      </div>
+
+      <div class="subscribe-form is-flex is-justify-content-end">
+        <form action="" class="is-flex is-align-items-center">
+          <div class="dummy-mailto">
+            <input
+              class="input email-input"
+              type="email"
+              placeholder="Email Address"
+            />
+            <a
+              href="mailto:request@obox.systems?subject = Feedback&body = Message"
+            ></a>
+          </div>
+
+          <a
+            href="mailto:request@obox.systems?subject = Feedback&body = Message"
+            class="submit-btn"
+            >Contact Us</a
+          >
+        </form>
+      </div>
+
+      <div class="is-flex is-justify-content-space-between container-social">
+        <div class="copy-right">
+          <p class="has-text-white size-14 ibm-font">
+            © <span class="update-date">2022</span> Out of the box Security,
+            Inc.
+          </p>
+        </div>
+        <div class="social-link is-flex">
+          <a href="https://twitter.com/LearnTogetherP">
+            <i class="fa-brands fa-x-twitter has-text-white"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/company/learn-together-pro"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin-in has-text-white"></i>
+          </a>
+          <a href="https://github.com/Learn-Together-Pro" target="_blank">
+            <i class="fab fa-github has-text-white"></i>
+          </a>
+          <a href="https://discord.com/invite/JVCZfTVf5A" target="_blank">
+            <i class="fab fa-discord has-text-white"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/file.js"></script>
+
+</html>

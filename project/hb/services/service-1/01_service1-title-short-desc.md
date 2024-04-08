@@ -1,0 +1,1 @@
+Many small companies don’t give testing much attention even though it’s essential for delivering a strong product. Some companies prefer to do manual testing. The next logical step is automating your testing process. Test automation increases overall software development efficiency and allows for more robust tools to be built.

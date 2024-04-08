@@ -1,0 +1,172 @@
+
+.work-with-us{
+    position: relative;
+    overflow-x: hidden;
+    @include max(1023px){
+        margin-bottom: 50px;
+        
+    }
+    &__quality,&__transparency,&__Reliability,&__flexibilty,&__industry,&__think{
+        position: relative;
+        height: 500px;
+        @include max(1023px){
+            height: auto;
+        }
+        &::after{
+            @include max(1023px){
+                display: none;
+            }
+        }
+       .container{
+           height: 100%;
+         
+       }
+       .columns{
+        height: 100%;
+        @include max(1023px){
+            flex-direction: column;
+            display: flex;
+        }
+       }
+       
+        .description{
+            position: relative;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+        
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            
+            background-image: url('../imgs/work-hard.jpg');
+            background-color: #a2d9ed52;
+            background-repeat: no-repeat;
+            background-position: center 30px;
+        }
+        .image{
+            @include max(1023px){
+                background-image: url('../imgs/work-hard.jpg');
+                background-color: #A2D9ED52;
+                height: 500px;
+                background-repeat: no-repeat;
+               background-position: center;
+                flex-basis: auto;
+               background-size: 90%;
+            }
+           @include max(500px){
+               height: 350px;
+           }
+            
+
+        }
+        .description{
+            @include max(1023px){
+                width: 500px;
+                margin:50px auto;
+                max-width: 95%;
+                margin-top: 0;
+                text-align: left !important;
+                align-items: flex-start !important;
+
+            }
+           
+        }
+    }
+    &__transparency{
+        .columns {
+           .image{
+               @include max(1023px){
+                   order: 5;
+                   background-image: url('../imgs/trust.png');
+               }
+           }
+           .description{
+          
+               
+           }
+        }
+    }
+
+    &__transparency,&__flexibilty,&__think{
+        &::after{
+            left: 0;
+            right: auto;
+            background-image: url('../imgs/trust.png');
+        }
+        .columns{
+            height: 100%;
+        }
+        .description{
+            
+            align-items: center;
+            text-align: center;
+        }
+
+    }
+    &__Reliability{
+        &::after{
+            background-image: url('../imgs/save.png');
+        }
+        .image{
+            @include max(1023px){
+                background-image: url('../imgs/save.png');
+            }
+        }
+
+
+    }
+    &__flexibilty{
+        &::after{
+            background-image: url('../imgs/love.png');
+        }
+        .image{
+            @include max(1023px){
+                order: 5;
+                background-image: url('../imgs/love.png');
+            }
+        }
+
+    }
+    &__industry{
+        &::after{
+            background-image: url('../imgs/industry.png');
+        }
+        .image{
+            @include max(1023px){
+                order: 5;
+                background-image: url('../imgs/industry.png');
+            }
+        }
+
+    }
+    &__think{
+        &::after{
+            background-image: url('../imgs/new.png');
+            
+        }
+        .image{
+            @include max(1023px){
+                order: 5;
+                background-image: url('../imgs/new.png');
+            }
+        }
+
+
+    }
+
+ 
+}
+
+.all-work-with-us{
+    >div:last-of-type{
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,52 @@
+  <nav class="navbar is-fullwidth " role="navigation" aria-label="main navigation"  x-data="{ open: false }">
+        <div class="container">
+              <div class="navbar-brand">
+            <a class="navbar-item logo-item" href="index.html">
+              <img
+                src="imgs/new-logo.png"
+             
+              />
+            </a>
+
+            <a
+              role="button"
+              class="navbar-burger ":class="open ? 'is-active' : ''"
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="navbarBasicExample"
+              x-on:click="open = ! open"
+            >
+              <span aria-hidden="true" class="nospan"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+
+          <div id="navbarBasicExample" class="navbar-menu ":class="open ? '' : 'hidden'"   >
+            <div class="navbar-start full-width is-justify-content-center	" >
+              <a href="services.html" class="navbar-item has-text-white"> Services</a>
+
+              <a href="vacancies.html" class="navbar-item has-text-white"> Vacancies</a>
+           
+              <a href="blog.html" class="navbar-item has-text-white"> Blog </a>
+  
+        
+
+        
+            </div>
+
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a href="https://github.com/Learn-Together-Pro" target="_blank" class="button is-primary githubBtn">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href = "mailto:{{mail}}?subject = Feedback&body = Message"
+                  class=" button is-light join-us"> Join US</a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </nav>

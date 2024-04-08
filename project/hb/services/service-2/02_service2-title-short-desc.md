@@ -1,0 +1,1 @@
+Game development is a risky and costly endeavor. Only 1 of 10 game projects get published. Only 1 of 10 published game reaches financial success. That's why it's so important to validate as much hypothesis as possible regarding your game design before investing a hundred thousand dollars into the full-scale design and development process.

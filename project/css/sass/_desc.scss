@@ -1,0 +1,165 @@
+.whole-description{
+    margin-top: 96px;
+    padding: 50px 0;
+    .columns {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .services-label{
+        @include max(1023px){
+            display: none;
+        }
+    }
+    .middle-desc{
+        padding-top: 0;
+   
+       
+        &__content{
+            width: 60%;
+            margin: auto;
+            max-width: 100%;
+            @include max(1023px){
+                width: 80%;
+            }
+            @include max(768px){
+                width: 90%;
+            }
+            >h2{
+                @include max(1023px){
+                    font-size: 35px;
+                }
+                @include max(479px){
+                    font-size: 32px;
+                }
+            }
+        }
+        p{
+            padding: 15px 0;
+            padding-top: 0;
+            color: #000;
+        }
+        ul{
+            li{
+                padding: 3px 0;
+                color: #000;
+            }
+        }
+        .main-desc{
+           
+           >p{
+            >span{
+                display: none;
+            }
+        }
+        }
+    }
+    .label-services{
+        padding: 5px 20px;
+        border-radius: 5px;
+        background-color: $maincolor;
+        padding-bottom: 7px;
+        font-weight: 600;
+        margin-top: 25px;
+        display: inline-block;
+    }
+    .Get-subscrbe{
+        background-color: #e3f6f5;
+        padding: 25px 20px;
+        border-radius: 10px ;
+        
+        margin-top: 30px;
+        @include max(1023px){
+            width: 500px;
+            margin: auto;
+            max-width: 90%;
+        }
+        h3{
+            width: 50%;
+            margin: auto;
+            padding: 30px 0;
+            line-height: 1.5;
+
+        }
+        form{
+            margin: 25px 0;
+            input{
+                margin: 0;
+               
+                width: 100%;
+                padding: 10px 0;
+                padding-left: 15px;
+                
+                font-family: 'Space Grotesk', sans-serif;
+                font-size: 16px;
+                
+            }
+            .submit-btn{
+                background-color: $maincolor;
+                margin-top: 10px;
+                color: #fff;
+                font-family: 'IBM Plex Mono', monospace;
+                text-align: center;
+                display: block;
+                margin-top: 10px;
+                margin-left: 0;
+            }
+        }
+    }
+}
+.gallery-photos{
+
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 100%;
+    justify-content: space-between;
+    background-color: #bae8e8;
+    padding: 10px 15px;
+    padding-bottom: 0;
+    
+    >div{
+        width: 49%;
+        margin-bottom: 10px;
+       padding: 10px;
+       background-color: #fff;
+       margin-left: auto;
+       margin-right: auto;
+       
+       
+       &:hover button{
+           opacity: 1;
+       }
+       &:hover{
+           z-index: 999999999;
+       }
+       &:hover img{
+       
+       }
+       img{
+           transition: .5s;
+           position: relative;
+          
+           &:hover{
+            transform: scale(1.5);
+            z-index: 89999999999999999999;
+            z-index: 1;
+           }
+       }
+       .view-full{
+        padding: 10px 15px;
+        border-radius: 5px;
+        background-color: $maincolor;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: none;
+        opacity: 0;
+        cursor: pointer;
+        display: none;
+    }
+    }
+
+}

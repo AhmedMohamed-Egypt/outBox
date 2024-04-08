@@ -1,0 +1,25 @@
+.current-opening{
+    padding: 50px 0;
+    background-color: #141414;
+    .current-title{
+        padding: 15px 0;
+    }
+    .current-sub-title{
+
+    }
+    .jobs-card{
+        margin-top: 50px;
+        .card{
+            width: 714px;
+            max-width: 100%;
+        margin: auto;
+         background-color: #ffffff0d;
+         padding: 35px 20px;
+         padding-right: 50px;
+         transition: transform 200ms ease, -webkit-transform 200ms ease;
+         &:hover{
+             transform: scale(1.05);
+         }
+        }
+    }
+}

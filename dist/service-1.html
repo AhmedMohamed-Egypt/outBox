@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+</head><body class="service-page">
+      
+     
+       <nav class="navbar is-fullwidth " role="navigation" aria-label="main navigation"  x-data="{ open: false }">
+             <div class="container">
+                   <div class="navbar-brand">
+                     
+                 
+                 <a class="navbar-item logo-item" href="index.html">
+                   <img src="imgs/Black-logo.png"  />
+                     
+              
+                 
+                 </a>
+     
+                 <a
+                   role="button"
+                   class="navbar-burger ":class="open ? 'is-active' : ''"
+                   aria-label="menu"
+                   aria-expanded="false"
+                   data-target="navbarBasicExample"
+                   x-on:click="open = ! open"
+                 >
+                   <span aria-hidden="true"></span>
+                   <span aria-hidden="true"></span>
+                   <span aria-hidden="true"></span>
+                 </a>
+               </div>
+     
+               <div id="navbarBasicExample" class="navbar-menu ":class="open ? '' : 'hidden'"   >
+                 <div class="navbar-start full-width is-justify-content-center	" >
+                   <a href="services.html" class="navbar-item has-text-white"> Services</a>
+     
+                   <a href="vacancies.html" class="navbar-item has-text-white"> Vacancies</a>
+                 
+                   <a href="blog.html" class="navbar-item has-text-white"> Blog </a>
+       
+             
+     
+             
+                 </div>
+     
+                 <div class="navbar-end">
+                   <div class="navbar-item">
+                     <div class="buttons">
+                       <a href="https://github.com/Learn-Together-Pro" target="_blank" class="button is-primary githubBtn">
+                         <i class="fab fa-github"></i>
+                       </a>
+                      <a href = "mailto:request@obox.systems?subject = Feedback&body = Message"
+                       class=" button is-light join-us"> Join US</a>
+                      
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             </nav>    <div class="whole-description">
+        <div class="container">
+          <div class="columns is-desktop">
+                <div class="column services-label">
+              <a href="services.html" class="w-600 label-services has-text-white">Services</a>
+            </div>
+            <div class="column is-two-thirds-desktop size-18 middle-desc">
+          <div class="middle-desc__content">
+              <h2 class="size-40 w-700 line-height-one main-desc">
+                 <p><span> Service I:</span> Automated visual testing setup for WebGL/WebGPU-based web application.</p>
+                
+                </h2>
+            <p>Many small companies don’t give testing much attention even though it’s essential for delivering a strong product. Some companies prefer to do manual testing. The next logical step is automating your testing process. Test automation increases overall software development efficiency and allows for more robust tools to be built.</p>
+            <p>Visual automated testing of a WebGL/WebGPU web application and its UI is a complex problem to solve. There are several obstacles to overcome to reach the goal:</p>
+            <ul>
+            <li>-&nbsp;headless run with GPU capabilities enabled</li>
+            <li>-&nbsp;synchronizing and gathering reports in a cloud</li>
+            <li>-&nbsp;robust analysis of screenshots or better-avoiding screenshots</li>
+            <li>-&nbsp;getting high performance despite extra restrictions visual testing imply</li>
+            <li>-&nbsp;performance testing and benchmarking</li>
+            </ul>
+            <h3 class="w-500 size-20 p-15 black">Some technologies we use to solve such kinds of problems:</h3>
+            
+            <ul>
+            <li>-&nbsp;Chrome remote protocol</li>
+            <li>-&nbsp;Puppeteer</li>
+            <li>-&nbsp;OpenCV if required</li>
+            <li>-&nbsp;TensorFlow if required</li>
+            <li>-&nbsp;BrowserStack if required</li>
+            <li>-&nbsp;GitHub Workflows if required</li>
+            <li>-&nbsp;GitHub Workflows if required</li>
+            <li>-&nbsp;CircleCI if required</li>
+            </ul>
+              
+    
+          
+        
+          
+    
+          </div>
+            </div>
+       
+        
+        <div>
+          
+    
+    
+    
+    </div>
+         <div class="column is-one-quarter-desktop ">
+                 <div class="Get-subscrbe">
+                      <h3 class="size-30 w-700 line-height-one has-text-centered">Get Update from US</h3>
+                     <form action="">
+                        
+                        <div class="dummy-mailto">
+                              <input  class="email-input" type="text" placeholder="Email Address">
+                               <a href = "mailto:request@obox.systems?subject = Feedback&body = Message"></a>
+                        </div>
+                        
+                         <a href = "mailto:request@obox.systems?subject = Feedback&body = Message"   class="submit-btn ibm-font ">Contact us</a>
+                       
+                     </form>
+                       <p class="size-14">We won't spam you. Ever.</p>
+                 </div>
+            </div>
+          </div>
+          <div class=" gallery-photos">
+              <div class="gallery">
+      
+     <div id="modal-js-example-one" class="modal modal-photos">
+      <div class="modal-background"></div>
+    
+      <div class="modal-content">
+        <div class="box">
+          <img src="imgs/Service 1_3.jpg" alt="">
+        </div>
+      </div>
+    
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <a href="#" class="js-modal-trigger" data-target="modal-js-example-one">
+     <img src="imgs/Service 1_3.jpg" alt="">
+    </a>
+                 
+              </div>
+                        <div class="gallery">
+      
+     <div id="modal-js-example-two" class="modal modal-photos">
+      <div class="modal-background"></div>
+    
+      <div class="modal-content">
+        <div class="box">
+          <img src="imgs/service-one.jpg" alt="">
+        </div>
+      </div>
+    
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <a href="#" class="js-modal-trigger" data-target="modal-js-example-two">
+     <img src="imgs/service-one.jpg" alt="">
+    </a>
+                 
+              </div>
+    <div class="gallery">
+      
+     <div id="modal-js-example-three" class="modal modal-photos">
+      <div class="modal-background"></div>
+    
+      <div class="modal-content">
+        <div class="box">
+          <img src="imgs/Service 1_5.jpg" alt="">
+        </div>
+      </div>
+    
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <a href="#" class="js-modal-trigger" data-target="modal-js-example-three">
+     <img src="imgs/Service 1_5.jpg" alt="">
+    </a>
+                 <button class="view-full">View Full </button>
+              </div>
+              <div class="gallery">
+      
+     <div id="modal-js-example-four" class="modal modal-photos">
+      <div class="modal-background"></div>
+    
+      <div class="modal-content">
+        <div class="box">
+          <img src="imgs/Service 1_4.jpg" alt="">
+        </div>
+      </div>
+    
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <a href="#" class="js-modal-trigger" data-target="modal-js-example-four">
+     <img src="imgs/Service 1_4.jpg" alt="">
+    </a>
+                 
+              </div>
+    
+             <div class="gallery">
+      
+     <div id="modal-js-example-five" class="modal modal-photos">
+      <div class="modal-background"></div>
+    
+      <div class="modal-content">
+        <div class="box">
+        <video width="500" height="500" controls>
+      <source src="imgs/video.mp4" type="video/mp4">
+      
+      
+    </video>
+        </div>
+      </div>
+    
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <a href="#" class="js-modal-trigger" data-target="modal-js-example-five">
+        <video width="500" height="500" controls>
+      <source src="imgs/video.mp4" type="video/mp4">
+      
+      
+    </video>
+    </a>
+                 
+              </div>
+    
+    
+    
+    
+    
+    
+    
+    
+          </div>
+        </div>
+    </div> 
+  
+
+
+<div class="footer">
+    <h2 class="h2-title has-text-white">Let's see some code.</h2>
+    <div class="call-to-actions is-flex is-justify-content-center	">
+        <div class="buttons">
+  <a href="https://github.com/Wandalen/wTools " class="button primary ibm-font has-text-white	">Try Cloud</a>
+  <a href=" https://docs.rs/wtools/latest/wtools/"   class="button link ibm-font has-text-white	">Read the docs</a>
+</div>
+    </div>
+  <div class="is-flex is-justify-content-space-between 	container-social">
+        <div class="copy-right">
+        <p class="has-text-white	size-14 ibm-font">© <span class="update-date">2022</span> Out of the box Security, Inc.</p>
+    </div>
+    <div class="social-link is-flex">
+        <a href="https://twitter.com/LearnTogetherP">
+            <i class="fab fa-twitter has-text-white"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/learn-together-pro" target="_blank">
+            <i class="fab fa-linkedin-in has-text-white"></i>
+        </a>
+        <a href="https://github.com/Learn-Together-Pro" target="_blank">
+            <i class="fab fa-github has-text-white"></i>
+        </a>
+        <a href="https://discord.com/invite/JVCZfTVf5A" target="_blank">
+            <i class="fab fa-discord has-text-white"></i>
+            
+        </a>
+    </div>
+  </div>
+  <div class="subscribe-form is-flex is-justify-content-end	">
+      <form action="" class="is-flex is-align-items-center	">
+        <div class="dummy-mailto">
+ <input class="input email-input" type="email" placeholder="Email Address">
+ <a href = "mailto:request@obox.systems?subject = Feedback&body = Message"></a>
+        </div>
+         
+
+<a href = "mailto:request@obox.systems?subject = Feedback&body = Message"   class="submit-btn ibm-font">Contact us</a>
+      </form>
+  </div>
+</div>
+
+
+
+
+
+
+<script src="js/file.js"></script>
+</body>
+
+</html>

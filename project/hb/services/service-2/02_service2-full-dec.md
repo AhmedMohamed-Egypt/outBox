@@ -1,0 +1,12 @@
+Game development is a risky and costly endeavor. Only 1 of 10 game projects get published. Only 1 of 10 published game reaches financial success. That's why it's so important to validate as much hypothesis as possible regarding your game design before investing a hundred thousand dollars into the full-scale design and development process. We understand that. We are here to develop core mechanics to help you evaluate your game idea. Functional mechanics will become a tool for proving your hypothesis and foundation for your MVP which you will use to pitch investments and attract first players.
+
+
+<h3 class="w-500 size-20 p-15 black">Beyond that we are in a position to help you with:</h3>
+
+
+- -&nbsp;Analysis of your game design.
+- -&nbsp; Evolving your game prototype into a full-scale game, attracting artists, expanding the dev team, publishing your game on Steam/GooglePlay/AppStore.
+- -&nbsp;Attracting the right person to help you with the SEO of your game.
+
+
+

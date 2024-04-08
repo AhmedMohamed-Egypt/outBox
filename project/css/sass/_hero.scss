@@ -1,0 +1,23 @@
+.hero-area{
+    height: 100vh;
+    background-color: $maincolor;
+    .container{
+        height: 100%;
+    }
+    &__content{
+        @include centerElement();
+        width: 100%;
+        h1{
+           font-size: 72px;
+           font-weight: bold;
+           text-align: center;
+           line-height: 1;
+
+           @include max(1023px){
+               font-size: 50px;
+               width: 80%;
+               margin: auto;
+           }
+        }
+    }
+}

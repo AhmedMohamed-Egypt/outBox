@@ -1,0 +1,32 @@
+<p class="orange"> 
+<span class="has-text-white">#</span>
+ Trust each other and the customer</p>
+<p class="violet has-text-weight-bold	monospace">
+<span class="has-text-white">**</span>
+<a target="_blank" href="https://blog.dtssydney.com/the-no1-responsibility-of-a-leader-trust">Trust</a>
+ is the glue of life. It’s the most essential ingredient in effective communication. It’s the foundational principle that holds all relationships.<span class="has-text-white">**</span>
+
+</p>
+<ul>
+<!-- list item -->
+<li> 
+<span>-</span> 
+<span>When trust is LOW the speed of doing business slows down and the cost goes up. </span>
+</li>
+<!-- list item -->
+
+<!-- list item -->
+<li>
+<span>-</span>
+<span> When trust is HIGH the speed of doing business accelerates and the cost falls.</span>
+</li>
+<!-- list item -->
+
+<!-- list item -->
+<li>
+<span>-</span>
+<span>Trust must be based on transparency. 
+</span>
+</li>
+<!-- list item -->
+</ul>

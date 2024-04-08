@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+</head><body>
+     <nav class="navbar is-fullwidth " role="navigation" aria-label="main navigation"  x-data="{ open: false }">
+           <div class="container">
+                 <div class="navbar-brand">
+               <a class="navbar-item logo-item" href="index.html">
+                 <img
+                   src="imgs/new-logo.png"
+                
+                 />
+               </a>
+   
+               <a
+                 role="button"
+                 class="navbar-burger ":class="open ? 'is-active' : ''"
+                 aria-label="menu"
+                 aria-expanded="false"
+                 data-target="navbarBasicExample"
+                 x-on:click="open = ! open"
+               >
+                 <span aria-hidden="true" class="nospan"></span>
+                 <span aria-hidden="true"></span>
+                 <span aria-hidden="true"></span>
+               </a>
+             </div>
+   
+             <div id="navbarBasicExample" class="navbar-menu ":class="open ? '' : 'hidden'"   >
+               <div class="navbar-start full-width is-justify-content-center	" >
+                 <a href="services.html" class="navbar-item has-text-white"> Services</a>
+   
+                 <a href="vacancies.html" class="navbar-item has-text-white"> Vacancies</a>
+              
+                 <a href="blog.html" class="navbar-item has-text-white"> Blog </a>
+     
+           
+   
+           
+               </div>
+   
+               <div class="navbar-end">
+                 <div class="navbar-item">
+                   <div class="buttons">
+                     <a href="https://github.com/Learn-Together-Pro" target="_blank" class="button is-primary githubBtn">
+                       <i class="fab fa-github"></i>
+                     </a>
+                     <a href = "mailto:request@obox.systems?subject = Feedback&body = Message"
+                     class=" button is-light join-us"> Join US</a>
+                    
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+           </nav>
+   <div class="blog">
+      <div class="hero-service">
+         <img src="imgs/hero-service-left.svg" alt="" class="imge-left-side">
+         
+         <div class="container">
+            <div class="hero-service__content is-flex is-flex-direction-column	is-align-items-center">
+               <p class="label has-text-white has-text-weight-semibold	">Blog</p>
+               <h1 class="size-54 w-700 black has-text-white">
+                  Our team collects the most <br/> up-to-date information about the Rust programming language here.
+               </h1>
+            </div>
+         </div>
+      </div>
+      <div class="main-cards">
+         <div class="container">
+            <div class="cards-blog">
+               <div class="card-blog">
+               <a href="post-one.html">
+                      <div class="text">
+                  <p>Reflection of Rust in 3 lessons. Difficulties and insights.</p>
+                  </div>
+                  <div class="img">
+                     <img src="imgs/post-one.png" alt="">
+                  </div>
+               </a>
+               </div>
+               <div class="card-blog ">
+              <a href="post-two.html">
+                   <div class="text">
+                 <p class="text"># Rust + vim? </p>
+                  </div>
+                  <div class="img">
+                     <img src="imgs/post-two.png" alt="">
+                  </div>
+              </a>
+               </div>
+            </div>
+         </div>
+      </div>
+    
+   </div>
+   
+     
+
+
+<div class="footer">
+    <h2 class="h2-title has-text-white">Let's see some code.</h2>
+    <div class="call-to-actions is-flex is-justify-content-center	">
+        <div class="buttons">
+  <a href="https://github.com/Wandalen/wTools " class="button primary ibm-font has-text-white	">Try Cloud</a>
+  <a href=" https://docs.rs/wtools/latest/wtools/"   class="button link ibm-font has-text-white	">Read the docs</a>
+</div>
+    </div>
+  <div class="is-flex is-justify-content-space-between 	container-social">
+        <div class="copy-right">
+        <p class="has-text-white	size-14 ibm-font">© <span class="update-date">2022</span> Out of the box Security, Inc.</p>
+    </div>
+    <div class="social-link is-flex">
+        <a href="https://twitter.com/LearnTogetherP">
+            <i class="fab fa-twitter has-text-white"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/learn-together-pro" target="_blank">
+            <i class="fab fa-linkedin-in has-text-white"></i>
+        </a>
+        <a href="https://github.com/Learn-Together-Pro" target="_blank">
+            <i class="fab fa-github has-text-white"></i>
+        </a>
+        <a href="https://discord.com/invite/JVCZfTVf5A" target="_blank">
+            <i class="fab fa-discord has-text-white"></i>
+            
+        </a>
+    </div>
+  </div>
+  <div class="subscribe-form is-flex is-justify-content-end	">
+      <form action="" class="is-flex is-align-items-center	">
+        <div class="dummy-mailto">
+ <input class="input email-input" type="email" placeholder="Email Address">
+ <a href = "mailto:request@obox.systems?subject = Feedback&body = Message"></a>
+        </div>
+         
+
+<a href = "mailto:request@obox.systems?subject = Feedback&body = Message"   class="submit-btn ibm-font">Contact us</a>
+      </form>
+  </div>
+</div>
+
+
+
+
+
+
+
+<script src="js/file.js"></script>
+</body>
+
+</html>
