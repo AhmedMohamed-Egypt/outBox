@@ -1,8 +1,9 @@
 .navbar{
-  background-color: $maincolor;
+  background-color: $maincolor !important;
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 999999999999999999999;
   .navbar-start {
     width: 100%;
 

@@ -11540,6 +11540,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding-top: 0;
   line-height: 1.2;
   width: 85%;
+  margin-left: 0 !important;
 }
 
 .txt-work {
@@ -11727,10 +11728,10 @@ body.vacancies-page .navbar {
   background-color: #000;
 }
 body.service-page .navbar {
-  background-color: #bae8e8;
+  background-color: #bae8e8 !important;
 }
 body.service-page .navbar .navbar-item {
-  color: #141414 !important;
+  color: #fff !important;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -11738,10 +11739,10 @@ body.service-page .navbar .navbar-item:hover {
   opacity: 0.5 !important;
 }
 body.service-page .navbar .navbar-end .githubBtn i {
-  color: #141414;
+  color: #fff !important;
 }
 body.service-page .navbar .navbar-end .join-us {
-  color: #141414;
+  color: #fff;
   font-weight: 500;
   border-color: rgba(20, 20, 20, 0.1);
   padding: 10px 20px;
@@ -11917,10 +11918,11 @@ body.showList .vacancies-tabs__content .headings .list ul {
 }
 
 .navbar {
-  background-color: #392396;
+  background-color: #392396 !important;
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 1000000000000000100000;
 }
 .navbar .navbar-start {
   width: 100%;
@@ -12493,6 +12495,8 @@ a.navbar-link:hover {
 .hero-vacancies .image img {
   width: 500px;
   height: 500px;
+  margin: auto;
+  max-width: 90%;
 }
 
 .vacancies-tabs {
@@ -12509,6 +12513,7 @@ a.navbar-link:hover {
   padding-left: 25px;
   height: 600px;
   position: relative;
+  max-width: 90%;
 }
 .vacancies-tabs__content .headings {
   display: -webkit-box;
@@ -12571,7 +12576,7 @@ a.navbar-link:hover {
 }
 .vacancies-tabs__content .preview > div {
   width: 470px;
-  max-width: 100%;
+  max-width: 90%;
   position: absolute;
   top: 80px;
   opacity: 0;
@@ -12607,6 +12612,16 @@ a.navbar-link:hover {
   z-index: 999999999;
 }
 
+.text {
+  max-width: 90%;
+  margin: auto;
+}
+
+.columns {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .current-opening {
   padding: 50px 0;
   background-color: #141414;
@@ -12636,7 +12651,7 @@ a.navbar-link:hover {
 }
 .faq .faq-list {
   width: 940px;
-  max-width: 100%;
+  max-width: 90%;
   margin: auto;
 }
 .faq .faq-list {

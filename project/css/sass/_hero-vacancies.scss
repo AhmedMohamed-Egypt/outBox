@@ -14,6 +14,8 @@
        img{
            width: 500px;
            height: 500px;
+           margin: auto;
+           max-width: 90%;
        }
     }
 }
@@ -32,6 +34,7 @@
         padding-left: 25px;
         height: 600px;
         position: relative;
+        max-width: 90%;
         .headings{
             display: flex;
             margin-bottom: 20px;
@@ -100,7 +103,7 @@
             >div{
                 
                 width: 470px;
-                max-width: 100%;
+                max-width: 90%;
                 position: absolute;
                 top: 80px;
                 opacity: 0;
@@ -139,4 +142,12 @@
             }
         }
     }
+}
+.text{
+    max-width: 90%;
+    margin: auto;
+}
+.columns{
+    margin-left: 0;
+    margin-right: 0;
 }

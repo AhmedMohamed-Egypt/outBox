@@ -8,19 +8,19 @@ body {
  
    &.service-page{
       .navbar{
-         background-color: $sky;
+         background-color: $sky !important;
          .navbar-item{
-            color: $balck !important;
+            color: #fff !important;
             transition: .5s;
             &:hover{
                opacity: .5 !important;
             }
          }
        .navbar-end .githubBtn i{
-            color: $balck;
+            color: #fff !important;
          }
          .navbar-end .join-us{
-            color: $balck;
+            color: #fff;
             font-weight: 500;
             border-color: rgba(20, 20, 20, 0.1);
             padding: 10px 20px;
