@@ -12513,7 +12513,8 @@ a.navbar-link:hover {
   padding-left: 25px;
   height: 600px;
   position: relative;
-  max-width: 90%;
+  max-width: 99%;
+  padding-right: 1%;
 }
 .vacancies-tabs__content .headings {
   display: -webkit-box;
